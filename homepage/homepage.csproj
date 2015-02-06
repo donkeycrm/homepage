@@ -39,6 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="snowcrashCLR">
+      <HintPath>..\packages\Snowcrash.NET.1.0.0\lib\net\snowcrashCLR.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.Entity" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -169,7 +172,6 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
-    <Content Include="img\HomeCarousel001.jpg" />
     <Content Include="img\HomeCarousel002.jpg" />
     <Content Include="img\HomeCarousel003.jpg" />
     <Content Include="img\logo.jpg" />
